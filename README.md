@@ -12,9 +12,8 @@ The project is divided into two main parts:
 
 * Hamiltonian:
 
-  $$
-  \hat{H}(t) = \Delta \hat{\sigma}_z + \frac{\Omega}{2} (\hat{\sigma}_+ + \hat{\sigma}_-), \quad \Delta = \alpha t, \quad -\tau < t < \tau
-  $$
+  $$\hat{H}(t) = \Delta \hat{\sigma}_z + \frac{\Omega}{2} (\hat{\sigma}_+ + \hat{\sigma}_-), \quad \Delta = \alpha t, \quad -\tau < t < \tau$$
+  
 * Tasks:
 
   * Plot the **energy spectrum** as a function of time.
