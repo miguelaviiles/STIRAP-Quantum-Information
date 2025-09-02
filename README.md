@@ -60,7 +60,7 @@ Dependencies can be installed via:
 pip install numpy scipy matplotlib pandas
 ```
 
-## 📚 References
+## References
 
 * K. Bergmann, H. Theuer, and B. W. Shore, *Coherent population transfer among quantum states of atoms and molecules*, Rev. Mod. Phys. 70, 1003 (1998).
 * C. E. Carroll and F. T. Hioe, *Transition probabilities for the Landau–Zener model*, J. Phys. A 19, 2061 (1986).
