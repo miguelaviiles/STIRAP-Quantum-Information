@@ -2,7 +2,7 @@
 
 This project explores **Stimulated Raman Adiabatic Passage (STIRAP)**, a powerful technique to transfer population between quantum states in a three-level lambda system. It was developed as part of my *Physics of Data* master’s program, in the course "Quantum Information with Atoms and Phonons"and implemented in **Python**.
 
-## 📌 Project Overview
+## Project Overview
 
 STIRAP enables a nearly perfect transfer of population from state **|0⟩** to state **|1⟩** without significantly populating the intermediate excited state **|e⟩**. The process is based on the **adiabatic theorem**, where the system follows an instantaneous eigenstate (the *dark state*) throughout the protocol.
 
@@ -10,20 +10,9 @@ The project is divided into two main parts:
 
 ### 1. Landau–Zener Model (Two-Level System)
 
-* Hamiltonian:
-
-  $$\hat{H}(t) = \Delta \hat{\sigma}_z + \frac{\Omega}{2} (\hat{\sigma}_+ + \hat{\sigma}_-), \quad \Delta = \alpha t, \quad -\tau < t < \tau$$
-
-* Tasks:
-
   * Plot the **energy spectrum** as a function of time.
   * Compute the **transition probability** to the excited state numerically.
   * Compare results against the analytical **Landau–Zener formula**:
-
-    $$
-    P_e \approx 1 - \exp\left(-\frac{\pi \Omega^2}{2\alpha}\right)
-    $$
-  * Explore the role of parameters *(Ω, α, τ)* in ensuring adiabatic transfer.
 
 ### 2. STIRAP Protocol (Three-Level Lambda System)
 
@@ -42,7 +31,7 @@ The project is divided into two main parts:
   * Apply the **adiabatic theorem** to verify population transfer.
   * Perform **numerical integration** to estimate imperfections and test Landau–Zener applicability.
 
-## ⚙️ Technologies & Libraries
+## Technologies & Libraries
 
 * **Python**
 * [NumPy](https://numpy.org/) – numerical computations
@@ -50,18 +39,18 @@ The project is divided into two main parts:
 * [Matplotlib](https://matplotlib.org/) – visualization of spectra, populations & dynamics
 * [Pandas](https://pandas.pydata.org/) – data handling and analysis
 
-## 📊 Results
+## Results
 
 * The **Landau–Zener model** shows excellent agreement between numerical and analytical results, validating the role of adiabaticity.
 * In the **STIRAP protocol**, the dark state provides an efficient pathway for population transfer from |0⟩ to |1⟩, with numerical simulations confirming robustness under adiabatic conditions.
 * Deviations are quantified to assess the limits of the Landau–Zener approximation in multi-level systems.
 
-## 🚀 How to Run
+## How to Run
 
 Clone the repository and run the Jupyter notebooks or Python scripts:
 
 ```bash
-git clone https://github.com/your-username/STIRAP.git
+git clone https://github.com/miguelaviiles/STIRAP-Quantum-Information.git
 cd STIRAP
 ```
 
@@ -75,5 +64,3 @@ pip install numpy scipy matplotlib pandas
 
 * K. Bergmann, H. Theuer, and B. W. Shore, *Coherent population transfer among quantum states of atoms and molecules*, Rev. Mod. Phys. 70, 1003 (1998).
 * C. E. Carroll and F. T. Hioe, *Transition probabilities for the Landau–Zener model*, J. Phys. A 19, 2061 (1986).
-
-Would you like me to also draft a **short one-liner project description** (the GitHub tagline) that would look good when someone browses your profile?
